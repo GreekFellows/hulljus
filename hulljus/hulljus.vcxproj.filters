@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\dnir">
+      <UniqueIdentifier>{44ca5c65-43d6-4e76-8e7a-b29d3de7155c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\mnuk">
+      <UniqueIdentifier>{5c29e3a4-7928-49ae-98a5-e93bcb43eb39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\effe">
+      <UniqueIdentifier>{ae728e10-9125-4609-bf3a-16a83cc664b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hulljus.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="hjApp.cpp">
+      <Filter>ソース ファイル\mnuk</Filter>
+    </ClCompile>
+    <ClCompile Include="hjFrame.cpp">
+      <Filter>ソース ファイル\mnuk</Filter>
+    </ClCompile>
+    <ClCompile Include="hjDrawPanel.cpp">
+      <Filter>ソース ファイル\mnuk</Filter>
+    </ClCompile>
+    <ClCompile Include="gennode.cpp">
+      <Filter>ソース ファイル\dnir</Filter>
+    </ClCompile>
+    <ClCompile Include="connode.cpp">
+      <Filter>ソース ファイル\dnir</Filter>
+    </ClCompile>
+    <ClCompile Include="intnode.cpp">
+      <Filter>ソース ファイル\dnir</Filter>
+    </ClCompile>
+    <ClCompile Include="strnode.cpp">
+      <Filter>ソース ファイル\dnir</Filter>
+    </ClCompile>
+    <ClCompile Include="boolnode.cpp">
+      <Filter>ソース ファイル\dnir</Filter>
+    </ClCompile>
+    <ClCompile Include="hjErrors.cpp">
+      <Filter>ソース ファイル\mnuk</Filter>
+    </ClCompile>
+    <ClCompile Include="varnode.cpp">
+      <Filter>ソース ファイル\dnir</Filter>
+    </ClCompile>
+    <ClCompile Include="vardata.cpp">
+      <Filter>ソース ファイル\effe</Filter>
+    </ClCompile>
+    <ClCompile Include="intdata.cpp">
+      <Filter>ソース ファイル\effe</Filter>
+    </ClCompile>
+    <ClCompile Include="strdata.cpp">
+      <Filter>ソース ファイル\effe</Filter>
+    </ClCompile>
+    <ClCompile Include="booldata.cpp">
+      <Filter>ソース ファイル\effe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gennode.h">
+      <Filter>ソース ファイル\dnir</Filter>
+    </ClInclude>
+    <ClInclude Include="hjFrame.h">
+      <Filter>ソース ファイル\mnuk</Filter>
+    </ClInclude>
+    <ClInclude Include="hjApp.h">
+      <Filter>ソース ファイル\mnuk</Filter>
+    </ClInclude>
+    <ClInclude Include="hjDrawPanel.h">
+      <Filter>ソース ファイル\mnuk</Filter>
+    </ClInclude>
+    <ClInclude Include="connode.h">
+      <Filter>ソース ファイル\dnir</Filter>
+    </ClInclude>
+    <ClInclude Include="intnode.h">
+      <Filter>ソース ファイル\dnir</Filter>
+    </ClInclude>
+    <ClInclude Include="strnode.h">
+      <Filter>ソース ファイル\dnir</Filter>
+    </ClInclude>
+    <ClInclude Include="boolnode.h">
+      <Filter>ソース ファイル\dnir</Filter>
+    </ClInclude>
+    <ClInclude Include="hjErrors.h">
+      <Filter>ソース ファイル\mnuk</Filter>
+    </ClInclude>
+    <ClInclude Include="varnode.h">
+      <Filter>ソース ファイル\dnir</Filter>
+    </ClInclude>
+    <ClInclude Include="vardata.h">
+      <Filter>ソース ファイル\effe</Filter>
+    </ClInclude>
+    <ClInclude Include="intdata.h">
+      <Filter>ソース ファイル\effe</Filter>
+    </ClInclude>
+    <ClInclude Include="strdata.h">
+      <Filter>ソース ファイル\effe</Filter>
+    </ClInclude>
+    <ClInclude Include="booldata.h">
+      <Filter>ソース ファイル\effe</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="documentation.md">
+      <Filter>ソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="h.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="hulljus.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
